@@ -2,17 +2,17 @@
   background: -webkit-radial-gradient(#6b6b6b, #111111); /* Safari 5.1 to 6.0 */
   background: -o-radial-gradient(#6b6b6b, #111111); /* For Opera 11.6 to 12.0 */
   background: -moz-radial-gradient(#6b6b6b, #111111); /* For Firefox 3.6 to 15 */
-  background: radial-gradient(#6b6b6b, #111111); /* Standard syntax */
+  background: radial-gradient(#6b6b6b, #333333); /* Standard syntax */
 }
 
 h1 {
-  /*color: black;*/
+  color: black;
   font-weight: bold;
   text-align: center;
 }
 
 h3 {
-  /*color: black;*/
+  color: black;
   font-weight: bold;
   text-align: center;
 }
