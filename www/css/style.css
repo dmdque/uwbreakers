@@ -31,6 +31,10 @@ h3 {
   font-size: 10pt;
 }
 
+p {
+  /*text-align: justify;*/
+}
+
 /*.footer-section {*/
   /*border-style: none solid solid solid;*/
 /*}*/
