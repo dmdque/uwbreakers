@@ -1,0 +1,31 @@
+// Links Color
+@color-link: #000000;
+@color-link-hover: #34495e;
+
+
+.navbar {
+  padding: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  img {
+  vertical-align: middle;
+  }
+
+  .logo {
+    width: 5em;
+    height: auto;
+  }
+
+  
+}
+
+/* slidejs */
+ #slides {
+      display: none
+    }
+
