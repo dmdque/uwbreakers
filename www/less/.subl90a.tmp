@@ -1,0 +1,68 @@
+// Links Color
+@color-link: #000000;
+@color-link-hover: #34495e;
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 0.0625em;
+}
+
+.navbar {
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  font-weight: bold;
+  font-size: 1.3em;
+  letter-spacing: 0.0625em;
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  img {
+  vertical-align: middle;
+  }
+
+  .logo {
+    width: 5em;
+    height: auto;
+  }
+
+  
+}
+
+footer {
+  width: 100%;
+  height: 20em;
+  background-color: gray;
+}
+
+/* slidejs */
+ #slides {
+      display: none
+    }
+
+.slide {
+
+  img {
+    position: relative;
+    width: 100%;
+  }
+
+  h1 span {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 3em;
+    color: white;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px; 
+  }
+
+}
+

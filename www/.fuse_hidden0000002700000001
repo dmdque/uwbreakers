@@ -1,0 +1,91 @@
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="extern/kube/css/kube.min.css" />
+
+    <script src="extern/jquery-1.11.1.min.js"></script>
+    <script src="extern/kube/js/kube.min.js"></script>
+      <script src="extern/Slides/source/jquery.slides.min.js"></script>
+
+
+</head>
+<body>
+
+    <div class="units-row">
+        <div class="unit-70 centered">
+
+    <div class="units-row">
+        <div class="unit-80 centered">
+            <nav class="navbar fullwidth">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#"><img class="logo" src="img/uwb-logo-transparent.png"/></a></li>
+                    <li><a href="#">EVENTS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+</div>
+</div>
+
+  <div id="slides">
+    <img src="img/temp.jpg">
+    <img src="img/temp2.jpg">
+    <img src="img/temp3.jpg">
+    <img src="img/temp4.jpg">
+          <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="fa fa-angle-left fa-3x"></i></a>
+           <a href="#" class="slidesjs-next slidesjs-navigation"><i class="fa fa-angle-right fa-3x"></i></a>
+  </div>
+<br><br>
+
+
+
+            <div class="units-row">
+                <div class="unit-60">
+                <h2>WELCOME TO UWBREAKERS</h2>
+                <p class="lead">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                </div>
+                <div class="unit-40">
+                <h2>UPCOMING EVENTS</h2>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                </p>
+                <button class="btn btn-yellow btn-outline">More</button>
+                </div>
+            </div>
+
+            <br><br>
+
+    </div>
+    </div>
+
+
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        navigation: {
+            active: false,
+            effect: "fade"
+        },
+        pagination: {
+            active: false,
+        },
+        width: 940,
+        height: 590,
+        play: {
+          active: false,
+          auto: true,
+          interval: 4000,
+          effect: "fade"
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
