@@ -1,6 +1,7 @@
 // Links Color
 @color-link: #000000;
 @color-link-hover: #f1c40f;
+@color-active: #0b0b0b;
 
 p,
 h1,
@@ -10,8 +11,12 @@ h4,
 h5,
 h6 {
   letter-spacing: 0.0625em;
+  color: #444444;
 }
 
+.active {
+  color: @color-active;
+}
 
 .navbar {
   margin-top: 1em;
@@ -22,6 +27,7 @@ h6 {
   background: #ffffff;
   color: #222222;
 
+  
   a:hover {
     text-decoration: none;
     -webkit-transition: all 600ms ease;
@@ -78,3 +84,20 @@ footer {
   
 }
 
+
+/*about.html*/
+
+.logo {
+  height: 15em;
+}
+#about-desc {
+  padding-top: 2em;
+}
+
+/*Contact.html*/
+
+#map {
+  width: auto;
+  height: 20em;
+
+}
