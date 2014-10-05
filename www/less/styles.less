@@ -7,38 +7,47 @@
 
 
 // Fonts
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700);
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
-@import url(http://fonts.googleapis.com/css?family=Merriweather);
+
 
 // Reset Styles
 
 html {
   -webkit-font-smoothing: antialiased;
 }
-
 p {
   color: #444444;
   letter-spacing: 0.0625em;
   font-family: 'Droid Sans', serif;
   font-weight: 400;
 }
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-/*  font-family: 'Open Sans', serif;
-  font-weight: 700;*/
+  font-family: 'Source Sans Pro', serif;
+  font-weight: 300;
 }
 
 h1 {
   margin: 0 0 0 0;
   font-size: 3.5em;
 }
-
+h2 {
+  font-size: 2.5em;
+}
+a:hover,
+button:hover {
+  text-decoration: none;
+    -webkit-transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+    transition: all 600ms ease;
+}
 
 .active {
   color: @color-active;
@@ -92,7 +101,17 @@ footer {
 
   i {
     color: @color-white;
-    padding-right: 0.5em;
+    padding-right: 1em;
+  }
+
+  i:hover {
+    color: @color-waterloo;
+    text-decoration: none;
+    -webkit-transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+    transition: all 600ms ease;
   }
 }
 
@@ -126,11 +145,13 @@ footer {
 
 // About Page
 
-.logo {
-  height: 15em;
+#logo {
+
+  padding-bottom: 2em;
 }
+
 #about-desc {
-  padding-top: 2em;
+  padding-top: 1.3em;
 }
 
 
