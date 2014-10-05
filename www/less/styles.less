@@ -16,14 +16,12 @@
 html {
   -webkit-font-smoothing: antialiased;
 }
-
 p {
   color: #444444;
   letter-spacing: 0.0625em;
   font-family: 'Droid Sans', serif;
   font-weight: 400;
 }
-
 h1,
 h2,
 h3,
@@ -33,9 +31,17 @@ h6 {
 /*  font-family: 'Open Sans', serif;
   font-weight: 700;*/
 }
-
 h1 {
   font-size: 3.5em;
+}
+a:hover,
+button:hover {
+  text-decoration: none;
+    -webkit-transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+    transition: all 600ms ease;
 }
 
 
@@ -125,11 +131,13 @@ footer {
 
 // About Page
 
-.logo {
-  height: 15em;
+#logo {
+
+  padding-bottom: 2em;
 }
+
 #about-desc {
-  padding-top: 2em;
+  padding-top: 1.3em;
 }
 
 
