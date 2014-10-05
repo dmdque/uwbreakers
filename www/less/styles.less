@@ -1,34 +1,63 @@
-// Links Color
+//Color
+@color-waterloo: #f1c40f;
+
 @color-link: #000000;
 @color-link-hover: #f1c40f;
 @color-active: #0b0b0b;
 
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400);
 
-p,
+// Fonts
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Merriweather);
+
+// Reset Styles
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+p {
+  color: #444444;
+  letter-spacing: 0.0625em;
+  font-family: 'Droid Sans', serif;
+  font-weight: 400;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  letter-spacing: 0.0625em;
-  color: #444444;
-  font-family: 'Source Sans Pro', sans-serif;
+/*  font-family: 'Open Sans', serif;
+  font-weight: 700;*/
 }
+
+h1 {
+  font-size: 3.5em;
+}
+
 
 .active {
   color: @color-active;
 }
 
+
+
+
+
+
+// General
+
 .navbar {
   margin-top: 1em;
   padding-top: 2.7em;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: 0.0625em;
   background: #ffffff;
   color: #222222;
-  font-family: 'Droid Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 
   
   a:hover {
@@ -46,6 +75,8 @@ h6 {
 
   .logo-title {
     letter-spacing: 0.4em;
+    font-weight: 700;
+    font-size: 1.05em;
   }
 
   
@@ -53,11 +84,15 @@ h6 {
 
 footer {
   width: 100%;
-  height: 5em;
-/*  background-color: #fafafa;*/
+  height: 10em;
+  background-color: @color-black;
   text-align: center;
-  color: #dadfe1;
-  padding: 0.5em;
+  padding-top: 3em;
+
+  i {
+    color: @color-white;
+    padding-right: 0.5em;
+  }
 }
 
 /* slidejs */
@@ -88,7 +123,7 @@ footer {
 }
 
 
-/*about.html*/
+// About Page
 
 .logo {
   height: 15em;
@@ -97,7 +132,9 @@ footer {
   padding-top: 2em;
 }
 
-/*Contact.html*/
+
+
+// Contact Page 
 
 #map {
   width: auto;
