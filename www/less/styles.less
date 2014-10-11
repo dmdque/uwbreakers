@@ -156,7 +156,7 @@ footer {
 
   p {
     padding-top: 2.2em;
-    padding-bottom: 1em;
+    padding-bottom: 0.2em;
   }
 }
 
@@ -166,9 +166,23 @@ footer {
   width: 30%;
 }
 
-.item.w2 {
-  width: 50%;
+@media only screen and (max-width: 100%) {
+  .item {
+    width: 30%;
+  }
 }
+@media only screen and (max-width: 1300px) {
+  .item {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .item {
+    width: 100%;
+  }
+}
+
 
 // Contact Page 
 
