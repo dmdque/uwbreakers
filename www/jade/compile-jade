@@ -1,1 +1,2 @@
+jade < events.jade > ../events.html
 jade < shirts.jade > ../shirts.html
